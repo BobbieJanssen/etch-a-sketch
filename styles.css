@@ -1,0 +1,13 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+.square {
+    width: calc(100% / 16);
+    aspect-ratio: 1/1;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
