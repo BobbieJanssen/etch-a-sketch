@@ -9,22 +9,21 @@ html, body {
     height: 100vh;
     background-color: rgba(220, 183, 189, 0.642);
     font-family: "arame mono", sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 #grid-container {
-    overflow: hidden;
-    flex-shrink: 0;
     display: flex;
     flex-wrap: wrap;
-    width: 700px; /* Adjust based on your grid size */
-    height: 700px; /* Adjust based on your grid size */
-    margin: 0 auto;
+    width: 512px; /* Adjust based on your grid size */
+    height: 512px; /* Adjust based on your grid size */
     border: 1 px solid white;
 }
 
 .square {
     width: calc(100% / 16); /* Adjust width based on number of columns */
     height: calc(100% / 16); /* Ensure height matches width for squares */
-    border: 1px solid #000;
-
+    border: 1px solid white;
 }
